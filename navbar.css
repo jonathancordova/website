@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+html{
+    scroll-behavior: smooth;
+}
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;            
+}
+a{
+    text-decoration: none;
+}
+
+.nav{
+    border:1px solid #ccc;
+    background-color:#3A4A6C ;
+    border-width:0px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: 900;
+}
+.nav li{
+    display:inline;
+    text-transform: uppercase;
+    margin: 2.75%;
+
+}
+.nav a{
+    display:inline-block;
+    padding:30px;
+}
+.nav li a:hover{
+    color: #E6EEB5;
+}
+.nav li a {
+    transition: all .3s ease 0s;
+    color: #DC813C ;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E9E3C6;
+}
+#slogan{
+    font-family: 'Walter Turncoat', cursive;
+}
+#hi{
+    font-family: 'Playfair Display', serif;
+
+}
+#aboutme{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+}
+#para{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+}
+#note{
+    font-family: 'Walter Turncoat', cursive;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}

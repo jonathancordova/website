@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jon Cordova</title>
+<link rel="stylesheet" type="text/css" href="navbar.css">
+<link rel="stylesheet" type="text/css" href="section1.css">
+<link rel="stylesheet" type="text/css" href="section2.css">
+<link rel="stylesheet" type="text/css" href="section3.css">
+<link rel="stylesheet" type="text/css" href="misc.css">
+<link rel="stylesheet" type="text/css" href="bottomfooter.css">
+<link rel="stylesheet" type="text/css" href="top.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class = "nav">
+                <li><a href = "#aboutme">About Me</a></li>
+                <li><a href = "#exp">Experience</a></li>
+                <li><a href = "#" value ="Open Window" onclick="window.open('Resume.pdf')">Resume</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <div class = "sec1">
+        <h1 id = "hi" class="animate__animated animate__jackInTheBox">Hello</h1>
+        <p id = slogan class="animate__animated animate__lightSpeedInLeft">This is Jonathan Cordova's Website</p>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            
+    </div>
+    <div class="row">
+        <h2 id = "aboutme">About Me</h2>
+        <div class="column" >
+            
+            <p id = "para">Soon to be Computer Science graduate concentrating in Information Systems 
+                at the University of North Florida. I want to work in Data Science, 
+                I enjoy analyzing data and coming with solutions that could possibly have a big impact. 
+                Basketball is my favorite sport which is a main reason I got into working with data. 
+                Below is my skill set and some of the interesting projects I have done in my machine learning course.</p>
+        </div>
+        <div class="column" >
+            <img src = "picture.JPG" alt = "picofme" class = "responsive" id = "pic">
+        </div>
+      </div>
+
+    <div class = "sec3">
+        <div class="row">
+            <h2 id = "exp">Experience</h2>
+            <div class="column">
+                <h3>Technical Skill</h3>
+                <p id = "note">by proficiency</p>
+                <ol id = skill class = "explist">
+                    <li>SQL</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>HTML/CSS</li>
+                </ol>
+            </div>
+            <div class="column">
+                <h3>Recent Projects</h3>
+                <ul id = rp class = "explist">
+                    <li>Rain Prediction using Linear Regression</li>
+                    <li>Image Classification using Nueral Networks</li>
+                    <li>Word Prediction & Script Accuracy Checker using Nueral Networks</li>
+                </ul>
+            </div>
+          </div>
+        
+    </div>
+    <footer id = "footer">
+  <div class="social-menu">
+    <ul>
+      <li><a href="https://www.instagram.com/jonathancordova_/?hl=en"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/jonathan-cordova-148840146/"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href= "https://github.com/jonathancordova"><i class="fa fa-github"></i></a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

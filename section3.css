@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#exp{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 15%;
+}
+.explist{
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 2.5%;
+}
+h3{
+    font-size: 50px;
+    margin-top: 5%;
+}
+.sec3{
+    margin-top: 12.5%;
+    margin-bottom: 15%;
+}
+#skill{
+    text-align: left;
+    margin-left: 33%;
+}
+#note{
+    text-align: center;
+    font-size: 26.5px;
+}
+ol{
+	list-style-type: none;
+    counter-reset: li;
+
+}
+#skill li{
+    font-size: 2rem;
+    font-family: 'Walter Turncoat', cursive;
+}
+#skill li:before {
+    counter-increment: li;
+    content: counter(li, decimal-leading-zero);
+    color: red;
+    margin-right: 0.25em;
+}
+#rp{
+    font-family: 'Walter Turncoat', cursive;
+
+}
